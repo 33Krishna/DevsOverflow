@@ -156,3 +156,10 @@ and many more, including code architecture and reusability
 ## 🤝&nbsp;&nbsp;Contributing
 
 Contributions are always welcome!
+</br></br>
+
+## 🪪&nbsp;&nbsp; License
+
+Devs-Overflow is open-source under the [MIT License](./LICENSE).
+Feel free to learn, add upon, and share!
+
