@@ -19,9 +19,19 @@
 
 ## <a name="introduction">🤖 Introduction</a>
 
+Devs-Overflow is a modern, AI-powered Q&A platform built for developers. It combines the power of community knowledge with intelligent solutions to help developers find answers, share expertise, and grow together. Delve into the codebase to explore more.
+
 A full-stack project, Devoverflow—a community-driven platform inspired by StackOverflow, enhanced with AI-powered answers, gamification, recommendations, and more. Using the latest features of Next.js, Here rendering strategies like SSG, ISR, SSR, PPR, Server Functions, Caching, & Revalidation to create a production-ready application.
 
 The project uses MongoDB for a robust database layer, NextAuth (Auth.js) for versatile authentication options (Email/Password, GitHub, Google), and sleek styling with TailwindCSS and ShadCN UI. Devoverflow enables developers to ask questions, post answers, leverage AI for responses, vote, organize content, contribute, discover jobs, and explore recommended topics—all while engaging with gamified elements like badges and rewards.
+
+<br>
+
+<a href="https://dev-overflow-umber.vercel.app">
+  <p align=center>
+    <img width = "650px" alt="Jio Network blocking the view? Network switch reveals the magic!" src="./public/devsflow.png">
+  <p>
+</a>
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
@@ -84,3 +94,65 @@ The project uses MongoDB for a robust database layer, NextAuth (Auth.js) for ver
 👉 **High Performance**: Fast loading and smooth interactions for an efficient user experience.
 
 and many more, including code architecture and reusability
+
+<br>
+
+## <a name="local-development"> 🖥️&nbsp;&nbsp; Local Development</a>
+
+0.  **Prerequisites** <br>
+    Make sure you have the following installed on your machine:
+
+    - [Git](https://git-scm.com/)
+    - [Node.js](https://nodejs.org/en) (v20+)
+    - [Docker](https://www.docker.com/)
+    - [pnpm](https://pnpm.io/) (Package Manager)
+
+1.  **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/yntpdotme/devs-overflow.git
+    ```
+
+2.  **Navigate to the project directory:**
+
+    ```bash
+    cd devs-overflow
+    ```
+
+3.  **Install dependencies:**
+
+    ```bash
+    pnpm install
+    ```
+
+4.  **Add Environment Variables:**
+
+    Create `.env` file in the root folder and copy paste the content of `.env.sample`
+
+    ```bash
+    cp .env.sample .env
+    ```
+
+    Update credentials in `.env` with your credentials.
+
+5.  **Setup Database**
+
+    Start Mongodb with Docker
+
+    ```bash
+    docker compose up -d
+    ```
+
+6.  **Start the App:**
+
+    ```bash
+    pnpm dev
+    ```
+
+    Visit &nbsp;[http://localhost:3000](http://localhost:3000)&nbsp; to access your app.
+
+<br>
+
+## 🤝&nbsp;&nbsp;Contributing
+
+Contributions are always welcome!
