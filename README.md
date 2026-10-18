@@ -84,5 +84,3 @@ The project uses MongoDB for a robust database layer, NextAuth (Auth.js) for ver
 👉 **High Performance**: Fast loading and smooth interactions for an efficient user experience.
 
 and many more, including code architecture and reusability
-
-<div>Build this project from <b>JavaScript Mastery</b>.</div>
